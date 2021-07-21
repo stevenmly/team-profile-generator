@@ -11,3 +11,27 @@ test('creates employee object', () => {
 
 }); 
 
+test('gets employee name', () => {
+    const employee = new Employee("Steven", "123456", "stevenly@me.com");
+
+    expect(employee.getName()).toBe("Steven")
+})
+
+test('gets employee id', () => {
+    const employee = new Employee("Steven", "123456", "stevenly@me.com");
+
+    expect(employee.getId()).toBe("123456")
+})
+
+test('gets employee email', () => {
+    const employee = new Employee("Steven", "123456", "stevenly@me.com");
+
+    expect(employee.getEmail()).toBe("stevenly@me.com")
+})
+
+test('gets employee role', () => {
+    const employee = new Employee("Steven", "123456", "stevenly@me.com");
+
+    expect(employee.getRole()).toBe("Employee")
+}) 
+
