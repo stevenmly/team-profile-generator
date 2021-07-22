@@ -28,3 +28,49 @@ const managerQuestions = [
         message: "What is the Manager's office number?" + "(Required)"
     }
 ];
+
+const engineerQuestions = [
+    {
+        type: "input",
+        name: "engineerName",
+        message: "What is the Engineer's name?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "engineerId",
+        message: "What is the Engineer's employee ID?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "engineerEmail",
+        message: "What is the Engineer's email address?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is the Engineer's GitHub username?" + "(Required)"
+    }
+];
+
+const internQuestions = [
+    {
+        type: "input",
+        name: "internName",
+        message: "What is the Intern's name?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "internId",
+        message: "What is the Intern's employee ID?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "internEmail",
+        message: "What is the Intern's email address?" + "(Required)"
+    },
+    {
+        type: "input",
+        name: "school",
+        message: "What is the Intern's school?" + "(Required)"
+    }
+];
