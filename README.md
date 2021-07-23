@@ -5,6 +5,9 @@
   ## Description
   #### This Node.js command-line application uses Inquirer and Jest packages to take in information about employees on a software engineering team and generates a HTML page that displays information for each person. Generated HTML pages will be created in ./dist. Jest in used to perform unit tests for parts of the code.
   ---
+  ## Demo Video
+  #### https://drive.google.com/file/d/1hUwE_mcIZIcXG1NXgPUGrn9tAR8ngyb-/view
+  ---
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
